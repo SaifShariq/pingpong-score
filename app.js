@@ -46,7 +46,7 @@ resetButton.addEventListener('click', reset);
 
 function reset (){
     isGameOver = false;
-    //avoiding repeatation of dom handlers by adding a loop
+    //avoiding repetition of dom handlers by adding a loop
     for(let p of [p1, p2]){
         p.score = 0;
         p.display.textContent = 0;
